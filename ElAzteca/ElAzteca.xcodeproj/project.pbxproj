@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E35A3E329AD3D300088F25E /* TableViewController ElAzteca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35A3E229AD3D300088F25E /* TableViewController ElAzteca.swift */; };
+		9E35A3E529AD3E240088F25E /* TableViewCell ElAzteca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E35A3E429AD3E240088F25E /* TableViewCell ElAzteca.swift */; };
 		9EDC31D1299C201C0068CA1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDC31D0299C201C0068CA1D /* AppDelegate.swift */; };
 		9EDC31D3299C201C0068CA1D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDC31D2299C201C0068CA1D /* SceneDelegate.swift */; };
 		9EDC31D5299C201C0068CA1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EDC31D4299C201C0068CA1D /* ViewController.swift */; };
@@ -16,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E35A3E229AD3D300088F25E /* TableViewController ElAzteca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewController ElAzteca.swift"; sourceTree = "<group>"; };
+		9E35A3E429AD3E240088F25E /* TableViewCell ElAzteca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableViewCell ElAzteca.swift"; sourceTree = "<group>"; };
 		9EDC31CD299C201C0068CA1D /* ElAzteca.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ElAzteca.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EDC31D0299C201C0068CA1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9EDC31D2299C201C0068CA1D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +64,8 @@
 				9EDC31D2299C201C0068CA1D /* SceneDelegate.swift */,
 				9EDC31D4299C201C0068CA1D /* ViewController.swift */,
 				9EDC31D6299C201C0068CA1D /* Main.storyboard */,
+				9E35A3E229AD3D300088F25E /* TableViewController ElAzteca.swift */,
+				9E35A3E429AD3E240088F25E /* TableViewCell ElAzteca.swift */,
 				9EDC31D9299C20200068CA1D /* Assets.xcassets */,
 				9EDC31DB299C20200068CA1D /* LaunchScreen.storyboard */,
 				9EDC31DE299C20200068CA1D /* Info.plist */,
@@ -139,6 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EDC31D5299C201C0068CA1D /* ViewController.swift in Sources */,
+				9E35A3E329AD3D300088F25E /* TableViewController ElAzteca.swift in Sources */,
+				9E35A3E529AD3E240088F25E /* TableViewCell ElAzteca.swift in Sources */,
 				9EDC31D1299C201C0068CA1D /* AppDelegate.swift in Sources */,
 				9EDC31D3299C201C0068CA1D /* SceneDelegate.swift in Sources */,
 			);
