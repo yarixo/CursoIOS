@@ -41,16 +41,25 @@ class TableViewController_ElAzteca: UITableViewController {
         // #warning Incomplete implementation, return the number of rows
         return arregloTatuadores.count
     }
-
-    /*
+    
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "celdita", for: indexPath) as! TableViewCell_ElAzteca
+        let celdaReciclada=arregloTatuadores[indexPath.row]
+        
+        cell.imgTatuador.image=celdaReciclada.foto
+        cell.lblNombre.text=celdaReciclada.nombre
+        cell.lblUbicacion.text=celdaReciclada.ubicacion
+        cell.lblContacto.text=celdaReciclada.contacto
+        
         // Configure the cell...
 
         return cell
     }
-    */
+    
+    override func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat {
+        return 250
+    }
+    
 
     /*
     // Override to support conditional editing of the table view.
